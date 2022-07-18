@@ -1,0 +1,14 @@
+20220718:15:13:56.085 [main] INFO   Logging initialized @1545ms to org.eclipse.jetty.util.log.Slf4jLog
+20220718:15:13:56.545 [main] INFO   register service:com.hjy.hjyrpc.example.CalcService add
+20220718:15:13:56.547 [main] INFO   register service:com.hjy.hjyrpc.example.CalcService minus
+20220718:15:13:56.560 [main] INFO   jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_152-b16
+20220718:15:13:56.751 [main] INFO   Started o.e.j.s.ServletContextHandler@6c49835d{/,null,AVAILABLE}
+20220718:15:13:57.525 [main] INFO   Started ServerConnector@544fe44c{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+20220718:15:13:57.530 [main] INFO   Started @2995ms
+20220718:15:16:50.346 [main] INFO   connect server:Peer(host=127.0.0.1, port=3000)
+20220718:15:16:51.003 [qtp2081853534-17] INFO   client connect
+20220718:15:16:51.285 [qtp2081853534-17] INFO   get request: Request(service=ServiceDescriptor{clazz='com.hjy.hjyrpc.example.CalcService', method='add', returnType='int', parameterType=[int, int]}, parameters=[1, 2])
+20220718:15:16:51.338 [qtp2081853534-17] INFO   response client
+20220718:15:16:51.510 [qtp2081853534-11] INFO   client connect
+20220718:15:16:51.516 [qtp2081853534-11] INFO   get request: Request(service=ServiceDescriptor{clazz='com.hjy.hjyrpc.example.CalcService', method='minus', returnType='int', parameterType=[int, int]}, parameters=[2, 1])
+20220718:15:16:51.517 [qtp2081853534-11] INFO   response client
